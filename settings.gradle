@@ -1,0 +1,2 @@
+rootProject.name='RentTech'
+include ':app'

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/cv_bank">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_photobank"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+
+            android:id="@+id/tv_item_namabank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_photobank"
+            android:layout_toRightOf="@id/img_photobank"
+            android:text="NAMA BANK"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/tv_item_norekbank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_photobank"
+            android:layout_toRightOf="@id/img_photobank"
+            android:text="No. Rekening"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_item_namapemilik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_photobank"
+            android:layout_toRightOf="@id/img_photobank"
+            android:text="Nama Pemilik Rekening"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

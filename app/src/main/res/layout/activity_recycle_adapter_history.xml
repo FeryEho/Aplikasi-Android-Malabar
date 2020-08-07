@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/cv_history">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_photobukti"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+
+            android:id="@+id/tv_item_notelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_photobukti"
+            android:layout_toRightOf="@id/img_photobukti"
+            android:text="NO TELEPON"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/tv_item_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_photobukti"
+            android:layout_toRightOf="@id/img_photobukti"
+            android:text="Tanggal"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_item_totalsetor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_photobukti"
+            android:layout_toRightOf="@id/img_photobukti"
+            android:text="Total Setor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

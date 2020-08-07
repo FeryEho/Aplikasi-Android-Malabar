@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Malabar</string>
+    <string name="title_activity_dasboard">DasboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">History</string>
+    <string name="title_notifications">Profil</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="agama">
+        <item>Agama</item>
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katolik</item>
+        <item>Hindu</item>
+        <item>Budha</item>
+        <item>Lainnya</item>
+
+    </string-array>
+
+    <string-array name="pendapatan">
+        <item>Penghasilan Perbulan</item>
+        <item>Kurang Rp.1.000.0000</item>
+        <item>Rp.1.000.0000 - Rp.2.000.000</item>
+        <item>Rp.2.000.0000 - Rp.3.000.000</item>
+        <item>Rp.3.000.0000 - Rp.4.000.000</item>
+        <item>Lebih Dari Rp.5.000.0000</item>
+    </string-array>
+
+    <string-array name="hubungan">
+        <item>Hubungan Ahli Waris</item>
+        <item>Orang Tua</item>
+        <item>Suami/Istri</item>
+        <item>Anak</item>
+        <item>Saudara</item>
+        <item>Lainnya</item>
+
+    </string-array>
+    <string name="home_second">Home Second</string>
+    <string name="upload">Upload File Gambar KTP dan Photo Anda</string>
+    <string name="saldo">Saldo Anda Akan Bertambah Secara Otomatis Ketika Sudah Diverifikasi Oleh Admin</string>
+    <string name="isigambaran">Setiap pengunjung dan anggota yang mengakses atau menyetorkan simpanan melalui aplikasi Malabar, dianggap telah memahami dan meyetejui semua isi dalam syarat dan ketentuan yang berlaku. Bila pengunjung/anggota tidak setuju dengan syarat dan ketentuan ini, maka hentikan penggunaan layanan atau produk dari aplikasi ini secepatnya.</string>
+    <string name="koperasi">Koperasi sebagai pengelola aplikasi Malabar mobile memiliki hak dan wewenang untuk mengubah, memperbarui, atau menghapus sewaktu-waktu bagian dari aplikasi dan juga syarat dan ketentuan tanpa ada pemberitahuan terlebih dahulu. Setiap perubahan dari situs dan syarat dan ketentuan berlaku setelah dicantumkan atau dimuat dalam aplikasi ini.</string>
+    <string name="aplikasi">Aplikasi ini dimiliki dan dikelola oleh Koperasi. Kecuali ditentukan lain, semua materi di aplikasi ini, merek dagang, merek layanan, logo adalah milik koperasi. Tidak ada material yang diterbitkan oleh Koperasi di aplikasi ini, secara keseluruhan atau sebagian, dapat disalin, direporoduksi, dimodifikasi, diterbitkan ulang, diunggah, diposting, dikirim, atau didistribusikan dalam bentuk apapun atau dengan cara apa pun tanpa izin tertulis sebelumnya dari Koperasi.</string>
+    <string name="pengunjung_diminta">Pengunjung diminta untuk melakukan proses mendaftar untuk bisa bergabung sebagai anggota koperasi. Pengunjung akan diminta untuk memasukan beberapa data pada saat mendaftar. Adapun data tersebut digunakan sebagai persyaratan menjadi anggota Koperasi.</string>
+    <string name="transaksi_penyetoran">Transaksi penyetoran simpanan pokok maupun wajib dilakukan dengan cara transfer ke rekenning bank milik Koperasi dan melalui platform payment gateway ketiga. Untuk layanan support dari pihak ketiga bisa dilihat di website yang bersangkutan. Segala informasi anggota aman.</string>
+</resources>
